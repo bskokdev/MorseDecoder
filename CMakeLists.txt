@@ -3,4 +3,4 @@ project(MorseDecoder)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(MorseDecoder main.cpp)
+add_executable(MorseDecoder main.cpp MorseDecoder.cpp MorseDecoder.h Node.cpp Node.h)
