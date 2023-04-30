@@ -1,6 +1,7 @@
 #include "MorseDecoder.h"
 
 MorseDecoder::MorseDecoder() {
+    // initialize table of morse codes for each letter
     this->morseTable = {
             {'A', ".-"},
             {'B', "-..."},
